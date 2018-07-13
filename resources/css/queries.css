@@ -1,9 +1,11 @@
 
+
+
 @media (max-width: 1024px) {
 
   /* Headr */
 
-  header {
+  .about {
     height: 120vh;
   }
 
@@ -24,24 +26,24 @@
 
   /* Header */
 
-  header {
+  .about {
     padding-top: 130px;
   }
 
-  header h1 {
+  .about h1 {
     font-size: 50px;
   }
 
-  header h1:after {
+  .about h1:after {
     margin-top: 15px;
   }
 
-  header p {
+  .about p {
     margin-top: 25px;
     font-size: 13px;
   }
 
-  header .shop-btn {
+  .about .shop-btn {
     margin: 45px auto 0 auto;
     width: 200px;
     height: 50px;
@@ -128,12 +130,12 @@
 
   /* Header */
 
-  header h1 {
+  .about h1 {
     font-size: 30px;
   }
 
 
-  header p {
+  .about p {
     font-size: 12px;
   }
 

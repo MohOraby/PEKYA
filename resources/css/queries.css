@@ -1,0 +1,165 @@
+
+@media (max-width: 1024px) {
+
+  /* Headr */
+
+  header {
+    height: 120vh;
+  }
+
+  /* Services Section */
+
+  .services i {
+    font-size: 50px;
+  }
+
+  .services h5 {
+    font-size: 16px;
+  }
+
+  /* Cities Section */
+}
+
+@media (max-width: 767px) {
+
+  /* Header */
+
+  header {
+    padding-top: 130px;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h1:after {
+    margin-top: 15px;
+  }
+
+  header p {
+    margin-top: 25px;
+    font-size: 13px;
+  }
+
+  header .shop-btn {
+    margin: 45px auto 0 auto;
+    width: 200px;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 25px;
+  }
+
+  /* Cities Section */
+
+  .cities p {
+    font-size: 13px;
+  }
+
+  /* Products Section */
+
+  .products button {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+  }
+
+  .products .tabcontent img {
+    height: 120px;
+    width: 180px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .products .tabcontent p {
+    margin-top: 15px;
+  }
+
+  /* Order Online Section */
+
+  .order-online {
+    background-position: left;
+  }
+}
+
+@media (max-width: 480px) {
+
+  body {
+    overflow-x: hidden;
+    width: 100%
+  }
+
+  /* Services Section */
+
+  .services i {
+    font-size: 35px;
+  }
+
+  .services h5 {
+    font-size: 13px;
+  }
+
+  /* Products Section  */
+
+  .products .tabcontent h4 {
+    font-size: 20px;
+  }
+
+
+  .products .tabcontent p {
+    font-size: 12px;
+  }
+
+  /* Order Online Section */
+
+  .center-block h4 {
+    font-size: 18px;
+    border-radius: 4px;
+    height: 40px;
+    background-color: #f7f7f7;
+    padding-top: 9px;
+  }
+
+  .center-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+
+  /* Header */
+
+  header h1 {
+    font-size: 30px;
+  }
+
+
+  header p {
+    font-size: 12px;
+  }
+
+  /* Services Section */
+
+  .services i {
+    font-size: 30px;
+  }
+
+  .services h5 {
+    font-size: 10px;
+  }
+
+  /* Cities Section  */
+
+  .cities .icon-red {
+    font-size: 15px;
+  }
+
+  .cities p {
+    font-size: 10px;
+  }
+
+  /* Products Section */
+
+  .products .tabcontent p {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="vendors/css/ionicons.css" />
+    <link rel="stylesheet" href="resources/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/queries.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>PEKYA</title>
+  </head>
+
+  <body>
+
+      <!-- Navbar Start -->
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="logo js-scroll-about"><img src="resources/IMG/PekyaLogo.png"/></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a class="nav-link js-scroll-about">About Us</a></li>
+              <li><a class="nav-link js-scroll-cities">Visit Us</a></li>
+              <li><a class="nav-link js-scroll-services">Services</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="nav-link js-scroll-products">Our Products</a></li>
+              <li><a class="nav-link js-scroll-online">Order Online</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Navrbar End -->
+
+      <!-- Header Start -->
+
+      <header class="js-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>What Is <span class="imp">PEKYA</span></h1>
+              <p>PEKYA is the leading furniture company in Egypt</p>
+              <a class="shop-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header End -->
+
+      <!-- Services Start -->
+
+      <section class="services js-services">
+        <div class="contaier">
+          <div class="row">
+            <div class="col-sm-4 col-xs-6">
+              <i class="ion-forward"></i><h5>Delivery</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <i class="ion-wrench"></i><h5>Assembly</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <i class="ion-ios-cart"></i><h5>Online Shopping</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <i class="ion-card"></i><h5>Financing</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <i class="ion-compass"></i><h5>Track Your Order</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <i class="ion-ios-telephone"></i><h5>Customer Support</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services End -->
+
+      <!-- Cities Start -->
+
+      <section class="cities js-cities">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Visit Our Stores At</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <img src="resources/IMG/Cairo.jpg" />
+              <h3>Cairo</h3>
+              <i class="ion-location icon-red"></i><p>A random location in Cairo</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <img src="resources/IMG/Giza.jpg" />
+              <h3>Giza</h3>
+              <i class="ion-location icon-red"></i><p>A random location in Giza</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <img src="resources/IMG/Alexandria.jpg" />
+              <h3>Alexandria</h3>
+              <i class="ion-location icon-red"></i><p>A random location in Alexandria</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <img src="resources/IMG/Luxor.jpg" />
+              <h3>Luxor</h3>
+              <i class="ion-location icon-red"></i><p>A random location in Luxor</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cities End -->
+
+      <!-- Products Start -->
+
+      <section class="products js-products">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Our Products</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 col-xs-12">
+              <button class="tablinks active" onclick="openProduct(event, 'product1')">Chair</button>
+              <button class="tablinks" onclick="openProduct(event, 'product2')">Table</button>
+              <button class="tablinks" onclick="openProduct(event, 'product3')">Bed</button>
+            </div>
+            <div class="col-sm-9 col-xs-12">
+              <div id="product1" class="tabcontent">
+                <img class="center-block" src="resources/IMG/chair.png" />
+                <h4>Chair</h4>
+                <p>The most comfortable chair you can dream of Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div id="product2" class="tabcontent">
+                <img class="center-block" src="resources/IMG/table.png" />
+                <h4>Table</h4>
+                <p>The best table you can dream of</p>
+              </div>
+              <div id="product3" class="tabcontent">
+                <img class="center-block" src="resources/IMG/bed.png" />
+                <h4>Bed</h4>
+                <p>The most comfortable bed you can dream of</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products End -->
+
+      <!-- Order Online Start -->
+
+      <section class="order-online js-online">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <form class="center-block">
+                <h4>Fill The <span class="pur-imp">Purchase</span> Form</h4>
+                <input type="text" id="name" class="form-control" placeholder="Name" />
+                <input type="text" id="address" class="form-control" placeholder="Address" />
+                <input type="email" id="email" class="form-control" placeholder="Email" />
+                <select name="productlist" class="form-control">
+                  <option value="product1">Chair</option>
+                  <option value="product2">Table</option>
+                  <option value="product3">Bed</option>
+                </select>
+                <button class="btn-buy">Buy</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order Online End -->
+
+      <!-- Footer Start -->
+
+      <footer>
+        <div class="contaier text-center">
+          <div class="row">
+            <div class="col-sm-12">
+              <p>Pekya &copy;2011-2018</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <a><i class="ion-social-facebook"></i></a>
+              <a><i class="ion-social-twitter"></i></a>
+              <a><i class="ion-social-instagram"></i></a>
+              <a><i class="ion-social-googleplus"></i></a>
+              <a><i class="ion-social-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Footer End -->
+
+    <script src="vendors/JS/jquery-2.2.4.min.js"></script>
+    <script src="vendors/JS/bootstrap.js"></script>
+    <script src="resources/JS/index.js"></script>
+  </body>
+</html>

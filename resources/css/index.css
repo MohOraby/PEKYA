@@ -29,7 +29,9 @@ nav img {
   height: 50px;
 }
 
-
+nav a {
+  transition: 0.1s;
+}
 
 
 /* Header Section */
